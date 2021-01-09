@@ -19,7 +19,9 @@ import javax.swing.SwingConstants;
 import java.awt.Font;
 import javax.swing.ImageIcon;
 import java.awt.Color;
-
+/**
+ * Ö÷½çÃæ
+ */
 public class zhu extends JFrame {
 
 	private JPanel contentPane;

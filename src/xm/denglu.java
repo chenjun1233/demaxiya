@@ -1,6 +1,9 @@
 package xm;
 
 import java.awt.Font;
+/**
+ * 登记页面
+ */
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -46,7 +49,7 @@ public class denglu extends JFrame {
 	}
 
 	/**
-	 * 创建框架——登录界面
+	 * 创建框架——登录界面cj
 	 */
 	public denglu() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(denglu.class.getResource("/img/j19.png")));

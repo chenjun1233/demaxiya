@@ -67,14 +67,14 @@ public class sjcahru {
 		}
 		JOptionPane.showMessageDialog(null, "sucess");
 	}
-    public static void addCJ(String xh,String xm,int cj) {//增加成绩
+    public static void addCJ(String xh,String xm,int sj) {//增加成绩
     	DatabaseConnectionSql dbcs=new DatabaseConnectionSql();//使用1中定义的连接数据库的类
-    	String sql="insert into scj(xh,xm,cj) values(?,?,?)";//使用占位符定义插入语句
+    	String sql="insert into scj(xh,xm,sj) values(?,?,?)";//使用占位符定义插入语句
     	try(Connection conn=dbcs.getConnection();//获取数据库接
     		PreparedStatement pstmt=conn.prepareStatement(sql);){//实例化
     		pstmt.setString(1, xh);//定义第1个占位符的内容
     		pstmt.setString(2, xm);//定义第2个占位符的内容
-    		pstmt.setInt(3, cj);//定义第3个占位符的内容
+    		pstmt.setInt(3, sj);//定义第3个占位符的内容
     		pstmt.executeUpdate();//执行插入语句
     		
     	}catch(SQLException e) {

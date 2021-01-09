@@ -59,13 +59,13 @@ public class DataOperate {
     }
     public static void main(String[] args) {
     	ArrayList<String> alist=new ArrayList<String>();//定义集合
-		for(int i=1;i<=300;) {
+		for(int i=1;i<=200;) {
 			String xh=getStuno().toString();//随机获取学号
 			if(!alist.contains(xh)) {//判断学号是否唯一
 				alist.add(xh);//将学号加入集合
 				String xm=getChineseName();//随机获取姓名
-				int cj=getNum(1, 30);//随机获取成绩
-				System.out.println(i+"\t"+xh+"\t"+xm+"\t"+cj);
+				int sj=getNum(1, 30);//随机获取成绩
+				System.out.println(i+"\t"+xh+"\t"+xm+"\t"+sj);
 				i++;//学号唯一，循环继续往下执行
 			}
 		}

@@ -12,7 +12,9 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+/**
+ * µÇ¼ÇÒ³Ãæ
+ */
 public class dengji extends JFrame {
 
 	private JPanel contentPane;
@@ -80,6 +82,8 @@ public class dengji extends JFrame {
 		JButton btnNewButton = new JButton("\u5F55\u5165");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				luru frame=new luru();
+				frame.setVisible(true);
 			}
 		});
 		btnNewButton.setBounds(127, 190, 97, 23);

@@ -13,7 +13,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.SwingConstants;
 import java.awt.Font;
-
+/**
+ * 第三层楼座位的选择
+ */
 public class lou3 extends JFrame {
 
 	private JPanel contentPane;

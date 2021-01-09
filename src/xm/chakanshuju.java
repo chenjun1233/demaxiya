@@ -18,7 +18,9 @@ import javax.swing.RowFilter;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
+/**
+ * 历史记录
+ */
 public class chakanshuju extends JFrame {
 	private JPanel contentPane;// 定义窗体内容面板，放置各组件
 	private JTable table;// 定义表格
@@ -54,7 +56,7 @@ public class chakanshuju extends JFrame {
 		Vector<Vector> stuInfo = DataOperate.getSelectAll(sql);// 从数据库中读取所有行数据
 
 //		使用静态数据创建DefaultTableModel数据模型
-		model = new DefaultTableModel(stuInfo, titles) {// 使用Vector装载表格数据模型，覆写getColumnClass方法，实现按各列的数据类型排序
+		model = new DefaultTableModel(stuInfo, titles) {// 使用Vector装载表格数据模型,覆写getColumnClass方法，实现按各列的数据类型排序
 			public Class getColumnClass(int column) {//获取列的类型
 				Class returnValue;
 				if ((column >= 0) && (column < getColumnCount())) {

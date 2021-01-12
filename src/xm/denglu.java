@@ -49,7 +49,7 @@ public class denglu extends JFrame {
 	}
 
 	/**
-	 * 创建框架——登录界面c j
+	 * 创建框架——登录界面c j    
 	 */
 	public denglu() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage(denglu.class.getResource("/img/j19.png")));

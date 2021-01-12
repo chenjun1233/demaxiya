@@ -4,7 +4,7 @@ package xm;
  */
 public class mm {
 	private String name;//ÓÃ»§Ãû
-	private String password;//ÃÜÂë
+	private String password;//ÃÜÂë  
 	public mm(String name,String password) {
 		this.name=name;
 		this.password=password;

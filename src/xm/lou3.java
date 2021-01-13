@@ -127,10 +127,10 @@ public class lou3 extends JFrame {
 		JButton btnNewButton_3 = new JButton("\u9884\u5B9A");
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				textField_1.setText("已预定");
+				textField_1.setText("已预定");    
 			}
 		});
-		btnNewButton_3.setBounds(96, 39, 97, 23);
+		btnNewButton_3.setBounds(96, 39, 97, 23);  
 		contentPane.add(btnNewButton_3);
 		
 		textField_1 = new JTextField();

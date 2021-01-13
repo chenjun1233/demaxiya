@@ -62,7 +62,7 @@ public class DataOperate {
 		for(int i=1;i<=200;) {
 			String xh=getStuno().toString();//随机获取学号
 			if(!alist.contains(xh)) {//判断学号是否唯一
-				alist.add(xh);//将学号加入集合
+				alist.add(xh);//将学号加入集合  
 				String xm=getChineseName();//随机获取姓名
 				int sj=getNum(1, 30);//随机获取成绩
 				System.out.println(i+"\t"+xh+"\t"+xm+"\t"+sj);
